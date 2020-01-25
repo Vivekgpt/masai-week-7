@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import './Activities'
 import Activities from './Activities';
+// import Calculation from './calculation'
 
 class Profile extends React.Component{
   render(){
@@ -13,6 +13,7 @@ class Profile extends React.Component{
             </nav>
         </header>
         <Activities/>
+        {/* <Calculation/> */}
       </div>
     );
   }
